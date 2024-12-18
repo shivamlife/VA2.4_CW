@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VA2.4_CW</title>
+  </head>
+  <body>
+    <h1>User Profile Form</h1>
+    <label for="username">Enter Your Name:</label> <br />
+    <input type="text" id="username" /> <br /><br />
+    <label for="address">Enter Your Full Address:</label> <br />
+    <textarea name="" id="address" cols="30" rows="5"></textarea><br />
+    <br />
+    <label for="gender">Select Your Gender:</label><br />
+    <label for="male">
+      <input type="radio" name="gender" value="Male" id="male" />Male</label
+    ><br />
+    <label for="female">
+      <input
+        type="radio"
+        name="gender"
+        value="Female"
+        id="female"
+      />Female</label
+    ><br />
+    <label for="other">
+      <input type="radio" name="gender" value="Other" id="other" />Other</label
+    ><br /><br />
+    <label for="">Select Multiple interests:</label><br />
+    <input type="checkbox" name="interest" value="Reading" />Reading<br />
+    <input type="checkbox" name="interest" value="Gardening" />Gardening<br />
+    <input type="checkbox" name="interest" value="Painting" />Painting<br />
+    <br /><br />
+    <label for=""
+      >Select Favourite color: <br />
+      <select name="" id="color">
+        <option value="Red">Red</option>
+        <option value="Yellow">Yellow</option>
+        <option value="Green">Green</option>
+      </select>
+    </label>
+    <br /><br />
+    <input type="submit" id="submit" />
+    <br />
+    <div id="outputUserDetails"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
